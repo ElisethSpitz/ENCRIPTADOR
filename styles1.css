@@ -1,0 +1,200 @@
+* {
+    font-family: "poppins";
+    line-height: 100%;
+}
+
+body {
+    background: #001524;
+}
+
+.logo {
+    padding-top: 8px;
+    margin-left: 50px;
+    width: 8%;
+    
+}
+
+.titulo-encriptador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FDE5D4;
+
+}
+
+.titulo h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    left: 90%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    
+}
+
+.text-area {
+    background: #001524;
+    border: none;
+    color: #D6CC99;
+    margin-top: 30px;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    width: 160%;
+    height: 100%;
+    outline: none;
+    resize: none;
+}
+
+.text-area :focus,
+.text-area :active {
+    border: none;
+    outline: none;
+}
+
+::placeholder ::placeholder {
+    color: #445D48;
+}
+
+.desencriptado {
+    background-color: #ffff;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 90px;*/
+}
+
+.mensaje {
+    background-color: white;
+    background-image: url("logos/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.5REM;
+    color: #001524;
+    margin-left: 400px;
+    top: 7%;
+    padding-left: 20px;
+    position: fixed;
+    width: 20%;
+    height: 71%;
+    outline: none;
+    padding: 3%;
+    font-size: 20px;
+    resize: none;
+}
+
+.mensaje :focus,
+.mensaje:active {
+    border: none;
+    outline: none;
+}
+
+
+.mensaje-encriptado {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 20%;
+    top: 70%;
+    left: 66%;
+    text-align: center;
+    color: #445D48;
+}
+
+.parrafo p {
+    font-size: 20spx;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 7%;
+
+}
+.boton-encriptar {
+    background-color: #FDE5D4;
+    border: 1px solid #FDE5D4;
+    border-radius: 14px;
+    color: #445D48;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    position: absolute;
+    width: 200px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.boton-desencriptar {
+    background-color: #445D48;
+    border: 1px solid #445D48;
+    border-radius: 0.9rem;
+    color: #FDE5D4;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 250px;
+
+}
+
+.boton-reiniciar {
+    background-color: #445D48;
+    border: 1px solid #445D48;
+    border-radius: 14px;
+    color: #001524;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 490px;
+    position: absolute;
+    width: 110px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.copiar {
+    top: 488px;
+    background-color: #445D48;
+    border: 1px solid #FDE5D4;
+    border-radius: 14px;
+    color: #FDE5D4;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 480px;
+    margin-top: 42px;
+    position: absolute;
+    width: 200px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.informacion {
+    color: #D6CC99;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.pie {
+    display: flex;
+    color: #D6CC99;
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-top: 12%;
+    margin-left: 43%;
+}
